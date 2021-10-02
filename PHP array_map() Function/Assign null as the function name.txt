@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a1=array("Dog","Cat");
+$a2=array("Puppy","Kitten");
+print_r(array_map(null,$a1,$a2));
+?>
+
+</body>
+</html>
+
+
+
+
+
+Array ( [0] => Array ( [0] => Dog [1] => Puppy ) [1] => Array ( [0] => Cat [1] => Kitten ) )

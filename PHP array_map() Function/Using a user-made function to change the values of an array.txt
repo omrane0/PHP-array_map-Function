@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+function myfunction($v)
+{
+if ($v==="Dog")
+  {
+  return "Fido";
+  }
+return $v;
+}
+
+$a=array("Horse","Dog","Cat");
+print_r(array_map("myfunction",$a));
+?>
+
+</body>
+</html>
+
+
+
+
+Array ( [0] => Horse [1] => Fido [2] => Cat )

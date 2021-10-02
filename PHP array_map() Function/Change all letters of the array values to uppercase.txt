@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+function myfunction($v) 
+{
+$v=strtoupper($v);
+  return $v;
+}
+
+$a=array("Animal" => "horse", "Type" => "mammal");
+print_r(array_map("myfunction",$a));
+?>
+
+</body>
+</html>
+
+
+
+
+
+Array ( [Animal] => HORSE [Type] => MAMMAL )
